@@ -1,0 +1,75 @@
+:root {
+    --font-primary: 'Baloo Tammudu 2', cursive;
+    --font-secondary: 'Nunito', sans-serif;
+}
+
+.projects {
+    width: 100vw;
+    margin-top: 3em;
+}
+
+#list {
+    width: 60vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.project-item {
+    width: 100%;
+    height: auto;
+    margin: 1em 0;
+    padding: 1em;
+    background-color: #fff;
+    background-color: #f2f2f250;
+    border-radius: 2em;
+    color: #fff;
+}
+
+.title-project {
+    padding: .5em 0;
+    font-size: 2em;
+    text-align: center;
+    font-family: var(--font-primary);
+    background-color: #f2f2f250;
+    border-radius: 1em;
+}
+
+.description-project {
+    text-align: center;
+    font-family: var(--font-secondary);
+    font-size: 1.5em;
+    padding: 1em;
+}
+
+.share-project {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-project {
+    width: 5em;
+    padding: 1em;
+    text-align: center;
+    border-radius: 2em 0 0 2em;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.link-project i {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.stack-project {
+    width: 100%;
+    text-align: left;
+    padding: 1em;
+    background-color: #f3f3f310;
+    border-radius: 0 2em 2em 0;
+    font-family: var(--font-secondary);
+}

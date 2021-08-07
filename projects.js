@@ -1,15 +1,17 @@
 const projects =
     [
         {
-            "name": "project one",
-            "description": "aqui vai a descrição do projeto",
-            "link": "link",
-            "stack": "JS e Node"
+            "name": "Site Web - Modelo de Portfólio",
+            "description": "O projeto consiste em um web site modelo de um portfólio para Devs",
+            "link": "https://bruno-costa-fig.github.io/portifolioModel/",
+            "icone": "fab fa-github",
+            "stack": "HTML, CSS e JS"
         },
         {
             "name": "project two",
             "description": "aqui vai a descrição do projeto",
             "link": "link",
+            "icone": "fas fa-video",
             "stack": "JS e Node"
         }
     ]
@@ -24,7 +26,7 @@ console.log(typeof (api))
 const lista = document.getElementById('list')
 
 const card = document.createElement('div')
-card.classList.add('project-item')
+
 
 const cardHeader = document.createElement('div')
 cardHeader.classList.add('card-header')
@@ -35,16 +37,24 @@ cardBody.classList.add('card-body')
 let titulo = document.createElement('p')
 titulo.classList.add('title-project')
 
-const button = document.createElement('button')
-button
+
 api.forEach(project => {
-    titulo.innerText = `${project.name}`
+    const template = document.createElement('div')
+    template.classList.add('project-item')
+    template.innerHTML = `
+        <p class="title-project">${project.name}</p>
+        <p class="description-project">${project.description}</p>
+        <div class="share-project">
+            <a class="link-project" href="${project.link}" title="link do projeto"><i class="${project.icone}"></i></a>
+            <p class="stack-project">${project.stack}</p>
+        </div>
+    `
     
     //titulo.innerHTML = `<p class="title-project>${api[0].name}</p>`
-    cardHeader.appendChild(titulo)
-    card.appendChild(cardHeader)
-    lista.appendChild(card)
+    cardHeader.appendChild(template)
     console.log('ta dando certo')
-
+    
 })
 
+card.appendChild(cardHeader)
+lista.appendChild(card)
