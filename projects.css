@@ -73,3 +73,9 @@
     border-radius: 0 2em 2em 0;
     font-family: var(--font-secondary);
 }
+
+@media screen and (max-width: 768px) {
+    #list {
+        width: 90vh;
+    }
+}
