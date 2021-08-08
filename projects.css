@@ -20,7 +20,7 @@
 .project-item {
     width: 100%;
     height: auto;
-    margin: 1em 0;
+    margin: 2em 0;
     padding: 1em;
     background-color: #fff;
     background-color: #f2f2f250;
@@ -76,6 +76,11 @@
 
 @media screen and (max-width: 768px) {
     #list {
-        width: 90vh;
+        width: 90%;
+    }
+
+    .title-project {
+        padding: .2em 0;
+        font-size: 1.5em;
     }
 }

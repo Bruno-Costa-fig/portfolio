@@ -8,11 +8,25 @@ const projects =
             "stack": "HTML, CSS e JS"
         },
         {
-            "name": "project two",
-            "description": "aqui vai a descrição do projeto",
-            "link": "link",
+            "name": "Api de controle de games",
+            "description": "O projeto consiste em uma API de controle de estoques de games de uma loja. O template foi feito em HTML simples e foi integrado com Axios com o backend em Javascript com NodeJS",
+            "link": "h􀆩ps://www.linkedin.com/posts/bruno-costa-figueiredo-b9b3141a2desenvolvimentoweb-javascript-nodejs-ac􀆟vity-6782438772911947776-fI7C",
             "icone": "fas fa-video",
-            "stack": "JS e Node"
+            "stack": "HTML, CSS, JS, Node e Axios"
+        },
+        {
+            "name": "Blog pessoal",
+            "description": "Fiz um projeto de criação de um blog com NodeJs usando Express, MySQL e Sequelize como ORM e EJS como View Engine. O projeto teve como propósito o aprendizado sobre criação de rotas, manipulação de dados e renderização de páginas com HTML e dados dinâmicos. Utilizei ainda no projeto projeto o TinyMCE para criar um campo de criação/edição dos posts do blog.",
+            "link": "h􀆩ps://www.linkedin.com/posts/bruno-costa-figueiredo-b9b3141a2_nodejsjavascript-webdevelopment-ac􀆟vity-6801307042813358080-KMMp",
+            "icone": "fas fa-video",
+            "stack": "HTML, CSS, JS, Node, Express, MySQL com Sequelize e EJS"
+        },
+        {
+            "name": "Painel administrativo",
+            "description": "O projeto consiste em uma aplicação criada em React.JS e Styled Components e com integração com API de usuários feita em Node.Js com JWT e banco de dados MySQL. Projeto consiste em uma interface para manipulação de cadastros de usuários.",
+            "link": "h􀆩ps://www.linkedin.com/feed/update/urn:li:ac􀆟vity:6811396668827672576/",
+            "icone": "fas fa-video",
+            "stack": "React, Styled Components, Node, MySQL e JWT"
         }
     ]
 
