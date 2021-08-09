@@ -43,7 +43,7 @@ const projects =
             "stack": "ReactJS, Styled Components, NodeJS e PostgresSQL"
         },
         {
-            "name": "Sistema de Extrato bancário",
+            "name": "Sistema de Extrato<br/>bancário",
             "description": "O projeto é uma aplicação criada em React.JS e Styled Components que consiste em um painel de extrato bancário. O projeto conta com aplicação de mudança para tema escuro.",
             "link": "https://www.linkedin.com/posts/bruno-costa-figueiredo-b9b3141a2_react-design-webdesigner-activity-6828792606906978304-xkxI",
             "icone": "fas fa-video",
