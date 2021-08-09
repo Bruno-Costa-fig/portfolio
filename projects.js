@@ -22,11 +22,32 @@ const projects =
             "stack": "HTML, CSS, JS, Node, Express, MySQL com Sequelize e EJS"
         },
         {
+            "name": "To Do List",
+            "description": "App construido com HTML, CSS e JavaScript para gerenciamento de notas com opções de marcar como concluído e deletar, além de ter a opção de colocar data e horário. Os dados são armazenados diretamente no localStorage o que garante segurança dos dados caso o navegador seja recarregado.",
+            "link": "https://www.linkedin.com/posts/bruno-costa-figueiredo-b9b3141a2_javascript-programming-webdevelopment-activity-6808918033898205184-YYws",
+            "icone": "fas fa-video",
+            "stack": "HTML, CSS, e JS"
+        },
+        {
             "name": "Painel administrativo",
             "description": "O projeto consiste em uma aplicação criada em React.JS e Styled Components e com integração com API de usuários feita em Node.Js com JWT e banco de dados MySQL. Projeto consiste em uma interface para manipulação de cadastros de usuários.",
-            "link": "h􀆩ps://www.linkedin.com/feed/update/urn:li:ac􀆟vity:6811396668827672576/",
+            "link": "https://www.linkedin.com/posts/bruno-costa-figueiredo-b9b3141a2_webdeveloper-javascript-nodejs-activity-6811396668827672576-Mfpi",
             "icone": "fas fa-video",
-            "stack": "React, Styled Components, Node, MySQL e JWT"
+            "stack": "ReactJS, Styled Components, NodeJS, MySQL e JWT"
+        },
+        {
+            "name": "Sistema financeiro",
+            "description": "O projeto consiste em uma aplicação criada em React.JS e Styled Components e com integração com API de usuários feita em Node.Js e banco de dados PostgreSQL. Projeto consiste em uma interface para manipulação de dados financeiros que permite organizar os pagamentos e recebimentos por data, gerando saldos e débitos conforme a tabela é alimentada.",
+            "link": "https://www.linkedin.com/posts/bruno-costa-figueiredo-b9b3141a2_reactjs-nodejs-developer-activity-6821819754978803712-JFM1",
+            "icone": "fas fa-video",
+            "stack": "ReactJS, Styled Components, NodeJS e PostgresSQL"
+        },
+        {
+            "name": "Sistema de Extrato bancário",
+            "description": "O projeto é uma aplicação criada em React.JS e Styled Components que consiste em um painel de extrato bancário. O projeto conta com aplicação de mudança para tema escuro.",
+            "link": "https://www.linkedin.com/posts/bruno-costa-figueiredo-b9b3141a2_react-design-webdesigner-activity-6828792606906978304-xkxI",
+            "icone": "fas fa-video",
+            "stack": "ReactJS e Styled Components"
         }
     ]
 

@@ -188,6 +188,10 @@ header {
 }
 
 @media screen and (max-width: 767.98px) {
+    .knowledges {
+        height: auto;
+    }
+
     .header__title {
         font-size: 2em;
         margin-top: 8em;
