@@ -20,7 +20,7 @@
 .project-item {
     width: 100%;
     height: auto;
-    margin: 2em 0;
+    margin: 4em 0;
     padding: 1em;
     background-color: #fff;
     background-color: #f2f2f250;
@@ -29,12 +29,9 @@
 }
 
 .title-project {
-    padding: .5em 0;
     font-size: 2em;
     text-align: center;
     font-family: var(--font-primary);
-    background-color: #f2f2f250;
-    border-radius: 1em;
 }
 
 .description-project {
@@ -83,11 +80,6 @@
 
     #list {
         width: 90%;
-    }
-
-    .title-project {
-        padding: .2em 0;
-        font-size: 1.2em;
     }
 
     .description-project, .link-project {

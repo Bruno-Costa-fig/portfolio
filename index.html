@@ -6,8 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bruno Costa</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/cards.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
@@ -34,50 +35,127 @@
     </header>
 
     <div class="container">
-        <section class="welcome js-play-on-screen">
-            <h2 class="title">Estou muito feliz ter você aqui</h2>
-        </section>
 
         <section class="knowledges js-play-on-screen">
             <div>
-                <h1 class="title">Estas são algumas das tecnologias que utilizo</h1>
+                <h1 class="title">Meus conhecimentos</h1>
             </div>
-            <div class="cards">
-
-                <div class="left">
-                    <p class="card">
-                        React.JS
-                    </p>
-                    <p class="card">
-                        Styled Components
-                    </p>
-                    <p class="card">
-                        HTML and CSS
-                    </p>
-                    <p class="card">
-                        Bootstrap
-                    </p>
-                    <p class="card">
-                        Sass
-                    </p>
+            <div class="containerCards">
+                <div class="card">
+                    <div class="face face1" id="html">
+                        <div class="content">
+                            <i class="fab fa-html5 icon-card"></i>
+                            <h3 class="title">HTML & CSS</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <ul class="text">
+                                <li>Código semântico</li>
+                                <li>Bootstrap</li>
+                                <li>SASS</li>
+                                <li>Grid e Flexbox</li>
+                                <li>Responsividade</li>
+                                <li>Acessibilidade</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="right">
-                    <p class="card">
-                        JavaScript
-                    </p>
-                    <p class="card">
-                        Vue e Vuex
-                    </p>
-                    <p class="card">
-                        Node.JS and Express
-                    </p>
-                    <p class="card">
-                        MySQL, PostgresSQL and MongoDB
-                    </p>
-                    <p class="card">
-                        Git e GitHub
-                    </p>
+                <div class="card">
+                    <div class="face face1" id="javascript">
+                        <div class="content">
+                            <i class="fab fa-js icon-card"></i>
+                            <h3 class="title">Javascript</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <ul class="text">
+                                <li>ES6+</li>
+                                <li>MVP</li>
+                                <li>VirtualDOM</li>
+                                <li>Typescript</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1" id="react">
+                        <div class="content">
+                            <i class="fab fa-react icon-card"></i>
+                            <h3 class="title">React</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <ul class="text">
+                                <li>Functions Components</li>
+                                <li>Hooks</li>
+                                <li>ContextAPI</li>
+                                <li>Styled Components</li>
+                                <li>React Router</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="containerCards">
+                <div class="card">
+                    <div class="face face1" id="nodejs">
+                        <div class="content">
+                            <i class="fab fa-node-js icon-card"></i>
+                            <h3 class="title">NodeJS</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <ul class="text">
+                                <li>NPM e YARN</li>
+                                <li>Express</li>
+                                <li>MomentJS</li>
+                                <li>Sequelize</li>
+                                <li>JWT</li>
+                                <li>Axios</li>
+                                <li>HTTP</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1" id="git">
+                        <div class="content">
+                            <i class="fab fa-github icon-card"></i>
+                            <h3 class="title">Git e GitHub</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <ul class="text">
+                                <li>Git</li>
+                                <li>GitHub</li>
+                                <li>GitHub Pages</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="face face1" id="vuejs">
+                        <div class="content">
+                            <i class="fab fa-vuejs icon-card"></i>
+                            <h3 class="title">VueJS</h3>
+                        </div>
+                    </div>
+                    <div class="face face2">
+                        <div class="content">
+                            <ul class="text">
+                                <li>Data Binding</li>
+                                <li>Components</li>
+                                <li>Nuxt</li>
+                                <li>Vuex</li>
+                                <li>Vuetify</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -95,14 +173,16 @@
 
             <ul class="social__media">
                 <li><a href="https://github.com/Bruno-Costa-fig" class="icon"><i class="fab fa-github"></i></a></li>
-                <li><a href="https://www.instagram.com/brunocostadev/" class="icon"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="https://www.linkedin.com/in/bruno-costa-figueiredo-b9b3141a2/" class="icon"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/brunocostadev/" class="icon"><i class="fab fa-instagram"></i></a>
+                </li>
+                <li><a href="https://www.linkedin.com/in/bruno-costa-figueiredo-b9b3141a2/" class="icon"><i
+                            class="fab fa-linkedin"></i></a></li>
             </ul>
         </footer>
     </div>
 
 
-    <script src="./projects.js"></script>
+    <script src="./js/projects.js"></script>
 </body>
 
 </html>
