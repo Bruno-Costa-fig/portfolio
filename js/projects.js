@@ -52,7 +52,14 @@ const projects =
         {
             "name": "Sala de Perguntas e Repostas",
             "description": "O projeto que consiste um uma sala virtual de perguntas e respostas, onde cada participante entra com sua conta do Google e podem além de fazer perguntas, podem também votar nas que mais gostarem. O administrador e criador da sala pode marcar como 'em resposta' e como respondida, além de gerenciar a sala podendo apagar uma pergunta caso esteja com algum conteúdo inadequado. Clique no ícone para ver o deploy no firebase:  ",
-            "link": "https://letmeask-7a5f7.web.appbruno-costa-figueiredo-b9b3141a2_react-design-webdesigner-activity-6828792606906978304-xkxI",
+            "link": "https://letmeask-7a5f7.web.app",
+            "icone": "fab fa-chrome",
+            "stack": "ReactJS, Styled Components e Firebase"
+        },
+        {
+            "name": "App de Clima",
+            "description": "O projeto que consiste um app de clima criado com ReactJS com conexão a API Open Weather Map. Clique no ícone para ver o deploy no GitHub:  ",
+            "link": "https://bruno-costa-fig.github.io/weather-app-build/",
             "icone": "fab fa-chrome",
             "stack": "ReactJS, Styled Components e Firebase"
         }
