@@ -61,7 +61,14 @@ const projects =
             "description": "O projeto que consiste um app de clima criado com ReactJS com conexão a API Open Weather Map. Clique no ícone para ver o deploy no GitHub:  ",
             "link": "https://bruno-costa-fig.github.io/weather-app-build/",
             "icone": "fab fa-chrome",
-            "stack": "ReactJS, Styled Components e Firebase"
+            "stack": "ReactJS"
+        },
+        {
+            "name": "Chat sobre Tecnologia",
+            "description": "Este porjeto foi criado durante a 12ª imersão ao NodeJs, React e React Native da Celke. Nele pude implementar um char criado com React, Socket.io e Styled Components. Clique no ícone para ver o vídeo do projeto funcionando  ",
+            "link": "https://www.linkedin.com/posts/bruno-costa-figueiredo-b9b3141a2_reactjs-javascript-desenvolvimentoweb-activity-6851170224796909568-kPNU",
+            "icone": "fab fa-chrome",
+            "stack": "NodeJs, Express, ReactJS, Styled Components e Socket.io"
         }
          
     ]
